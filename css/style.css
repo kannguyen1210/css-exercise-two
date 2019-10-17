@@ -1,10 +1,13 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  line-height: 1.4;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: black;
+  text-decoration-color: white;
   float: left;
   position: fixed;
   width: 100%;
@@ -35,6 +38,7 @@ nav {
 ul {
   list-style-type: none;
   float: right;
+  font-size: 1.5em;
 }
 
 li {
@@ -49,4 +53,19 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 2.0;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
